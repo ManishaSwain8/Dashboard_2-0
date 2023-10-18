@@ -5,7 +5,7 @@ import {
   BarElement,
   Tooltip,
   Legend,
-} from "chart.js";
+} from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
 ChartJS.register(BarElement, Tooltip, Legend);
@@ -46,12 +46,6 @@ export default function Test() {
       y: {
         ticks: {
           display: false,
-        },
-      },
-
-      x: {
-        ticks: {
-          display: true,
         },
       },
     },
