@@ -2,8 +2,6 @@ import React from "react";
 import { Chart as ChartJS, BarElement, Tooltip, Legend } from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
-ChartJS.register(BarElement, Tooltip, Legend);
-
 export default function Test() {
   const data = {
     labels: [
