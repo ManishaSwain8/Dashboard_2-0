@@ -6,7 +6,7 @@ export default function Card() {
     <div>
       <div className="max-lg:mt-10">
         <div className="flex flex-wrap justify-between px-12">
-          <h1 className="text-2xl ml-2 font-bold md:text-center ">
+          <h1 className="text-2xl ml-2 font-semibold md:text-center ">
             Hello Sharukh 👋 ,
           </h1>
           <div className="relative max-sm:-ml-3">
