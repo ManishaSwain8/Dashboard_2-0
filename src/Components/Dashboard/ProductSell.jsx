@@ -15,7 +15,7 @@ export default function ProductSell() {
             <div className="relative max-sm:-ml-3  ">
               <LuSearch
                 style={{ color: "gray" }}
-                class="absolute inset-x-0  flex mt-2 ml-2"
+                className="absolute inset-x-0  flex mt-2 ml-2"
                 size={20}
               />
 

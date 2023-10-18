@@ -34,8 +34,29 @@ export default function Test() {
           3000, 2500, 3500, 3000, 3500, 2500, 3500, 4300, 4000, 3000, 3500,
           3900, 1000,
         ],
-        backgroundColor: "#0039a6",
+        backgroundColor: [
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#0039a6",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+          "#E6E6FA",
+        ],
         borderWidth: 2,
+        borderRadius: {
+          topLeft: 13,
+          topRight: 13,
+          bottomLeft: 13,
+          bottomRight: 13,
+        },
+        borderSkipped: false,
       },
     ],
   };
@@ -49,9 +70,15 @@ export default function Test() {
           display: true,
         },
         reverse: false,
+        grid: {
+          display: false,
+        },
       },
       y: {
         ticks: {
+          display: false,
+        },
+        grid: {
           display: false,
         },
       },

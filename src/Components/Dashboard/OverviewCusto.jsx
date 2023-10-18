@@ -106,7 +106,7 @@ export default class Example extends PureComponent {
             </PieChart>
             <div className="text-center -mt-60  ">
               {" "}
-              <h1 className="text-2xl font-extrabold">65%</h1>
+              <h1 className="text-3xl font-extrabold">65%</h1>
               <p className="text-gray-500 font-semibold">
                 Total new <br />
                 Customers
