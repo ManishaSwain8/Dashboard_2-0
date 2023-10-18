@@ -1,8 +1,15 @@
 import React from "react";
-import { Chart as ChartJS, BarElement, Tooltip, Legend } from "chart.js/auto";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  BarElement,
+  Tooltip,
+  Legend,
+} from "chart.js";
 import { Bar } from "react-chartjs-2";
 
 ChartJS.register(BarElement, Tooltip, Legend);
+ChartJS.register(CategoryScale);
 
 export default function Test() {
   const data = {
