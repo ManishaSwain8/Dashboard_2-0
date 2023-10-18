@@ -1,5 +1,5 @@
 import React from "react";
-import { Chart as ChartJS, BarElement, Tooltip, Legend } from "chart.js";
+import { Chart as ChartJS, BarElement, Tooltip, Legend } from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
 ChartJS.register(BarElement, Tooltip, Legend);
@@ -29,7 +29,6 @@ export default function Test() {
         ],
         backgroundColor: "#0039a6",
         borderWidth: 2,
-        borderRadius: 100,
       },
     ],
   };
@@ -37,20 +36,17 @@ export default function Test() {
     maintainAspectRatio: false,
 
     scales: {
-      yAxes: [
-        {
-          ticks: {
-            display: false,
-          },
+      y: {
+        ticks: {
+          display: false,
         },
-      ],
-      xAxes: [
-        {
-          ticks: {
-            display: true,
-          },
+      },
+
+      x: {
+        ticks: {
+          display: true,
         },
-      ],
+      },
     },
   };
   return (
