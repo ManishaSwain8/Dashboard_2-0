@@ -43,6 +43,13 @@ export default function Test() {
     maintainAspectRatio: false,
 
     scales: {
+      x: {
+        type: "category",
+        ticks: {
+          display: true,
+        },
+        reverse: false,
+      },
       y: {
         ticks: {
           display: false,
